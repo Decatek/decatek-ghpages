@@ -9,7 +9,7 @@ title: Projects
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} - {{post.category}}</span>
 
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -21,6 +21,7 @@ title: Projects
   <div class="col-md-4">
   <h1 class="page-heading">Open Source</h1>
 
+    <!-- GitHub widgets -->
     <div class="github-widget" data-repo="Decatek/dotvim"></div>
   </div>
 
