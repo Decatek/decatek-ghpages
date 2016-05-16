@@ -3,7 +3,7 @@ layout: post
 name: Serenity Quest
 title: Serenity Quest - A Japanese themed puzzle game
 show_in_home: true
-img_url: http://placehold.it/400x225
+img_url: ../img/thumbs/serenityquest.png
 category: projects
 ---
 
