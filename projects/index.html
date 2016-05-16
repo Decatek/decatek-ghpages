@@ -2,9 +2,14 @@
 layout: default
 title: Projects
 ---
-<div class="home container">
+<div class="wrapper">
+  <div class="row">
+    <h1 class="page-heading">Open Source</h1>
 
-  <div class="col-md-8">
+    <!-- GitHub widgets -->
+    <div class="github-widget" data-repo="Decatek/dotvim"></div>
+  </div>
+  <br/>
   <h1 class="page-heading">Projects and Articles</h1>
     <ul class="post-list">
       {% for post in site.posts %}
@@ -17,13 +22,7 @@ title: Projects
         </li>
       {% endfor %}
     </ul>
-  </div>
-  <div class="col-md-4">
-  <h1 class="page-heading">Open Source</h1>
 
-    <!-- GitHub widgets -->
-    <div class="github-widget" data-repo="Decatek/dotvim"></div>
-  </div>
 
 
 </div>
